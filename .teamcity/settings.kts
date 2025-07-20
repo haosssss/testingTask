@@ -42,7 +42,7 @@ object Build : BuildType({
     steps {
         gradle {
             id = "gradle_runner"
-            tasks = "clean build --stacktrace --info"
+            tasks = "clean build"
             jdkHome = "%env.JDK_21_0%"
         }
     }
