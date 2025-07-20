@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
+import org.junit.jupiter.api.Assertions.assertEquals
 
 class SampleTest {
     @Test
@@ -9,6 +9,6 @@ class SampleTest {
 
     @Test
     fun testFailingCase() {
-        assertEquals(5, 2 + 2, "Test fails")
+        assertEquals(5, 2 + 2, "Test fails") // 🔥 має впасти
     }
 }
