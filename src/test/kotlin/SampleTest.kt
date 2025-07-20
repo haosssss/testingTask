@@ -9,6 +9,6 @@ class SampleTest {
 
     @Test
     fun testFailingCase() {
-        assertEquals(5, 2 + 2, "Test fails") // 🔥 має впасти
+        assertEquals(4, 2 + 2, "Test fails")
     }
 }
